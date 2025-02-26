@@ -13,4 +13,4 @@ Overall Workflow:
  Error Handling:  
 	•	If the OpenAI API returns an empty or invalid response, appropriate error messages are returned.
 
- Personal Note: I created this app to apply some of my latest learnings about FastAPI and the Open AI API. Although this is my first complete project using these techs, I really believe this app has real world application, and can greatly assist data scientists with preprocessing Data. I personally tested some datasets from SKlearn, such as the Wine and Forest covertype datasets, and got very reliable preprocessing recommendations in the final output.
+ Personal Note: I created this app to apply some of my latest learnings about FastAPI and the Open AI API. Although this is my first complete project using these techs, I really believe this app has real world application, and can greatly assist data scientists with preprocessing Data. I tested some datasets from SKlearn, such as the Wine and Forest covertype datasets, and got very reliable preprocessing recommendations in the final output.
