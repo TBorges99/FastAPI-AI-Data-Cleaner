@@ -1,13 +1,13 @@
 This FastAPI application is designed for preprocessing and data cleaning purposes. The user can either preprocess a sample dataset automatically, or request a step-by-step guide/summary of preprocessing steps. This guide/summary is tailored to the users dataset using OpenAI’s GPT model.
 
-Overall Workflow:
-	1.	Users upload a CSV or JSON file.
-	2.	A sample of the dataset is extracted using Cochran’s formula.
-	3.	The app uses OpenAI’s GPT model to clean the data or generate a preprocessing summary.
+Overall Workflow:  
+	1.	Users upload a CSV or JSON file.  
+	2.	A sample of the dataset is extracted using Cochran’s formula.  
+	3.	The app uses OpenAI’s GPT model to clean the data or generate a preprocessing summary.  
 	4.	The cleaned data or summary is returned to the user as a text response.
 
- Endpoints:
-	•	/treated_sample/: Upload a file and get the cleaned and processed dataset in JSON format.
+ Endpoints:  
+	•	/treated_sample/: Upload a file and get the cleaned and processed dataset in JSON format.  
 	•	/treatment_summary/: Upload a file and get a detailed preprocessing summary that suggests steps for handling the data.
 
  Error Handling:
